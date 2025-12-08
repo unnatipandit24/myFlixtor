@@ -1,50 +1,131 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# myFlixtor – Mobile Movie App
 
-## Get started
+myFlixtor is a modern **React Native mobile application** designed to explore trending movies, search titles, and view detailed information through a clean and intuitive interface.
+The app is powered by **BaaS (Backend-as-a-Service)** using **Appwrite**, enabling smooth authentication, database management, and cloud operations without maintaining your own backend.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+##  Features
 
-2. Start the app
+✅ Browse trending & popular movies
+✅ Powerful search system
+✅ Detailed movie information
+✅ API-based real-time updates
+✅ Clean & modern UI with Tailwind (NativeWind)
+✅ Cross-platform support (Android & iOS)
+✅ BaaS integration using Appwrite
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+##  Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### **Frontend**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* **React Native (Expo)**
+* **TypeScript**
+* **NativeWind (Tailwind CSS)**
+* **Expo Router**
 
-## Get a fresh project
+### **Backend (BaaS)**
 
-When you're ready, run:
+* **Appwrite** — used as a **Backend-as-a-Service** for:
 
-```bash
-npm run reset-project
+  * Database
+  * Collections (Tables)
+  * Document management
+  * API endpoints
+  * Cloud functionality
+  * Secure data storage
+
+### **External APIs**
+
+* **TMDB API** — for all movie data
+
+---
+
+##  Project Structure
+
+```
+myFlixtor/
+│
+├── app/               // Navigation & screens
+├── components/        // Reusable UI components
+├── services/          // API logic & BaaS (Appwrite) integration
+├── constants/         // Icons & images
+├── interfaces/        // TypeScript models
+├── assets/            // Images & fonts
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Getting Started
 
-To learn more about developing your project with Expo, look at the following resources:
+### 1. Clone the Repository
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+git clone https://github.com/unnatipandit24/myFlixtor.git
+cd myFlixtor
+```
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+### 2️. Install Dependencies
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npm install
+```
+
+---
+
+### 3️. Create Environment Variables
+
+Create a `.env` file:
+
+```env
+EXPO_PUBLIC_APPWRITE_ENDPOINT=your_endpoint_here
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_project_id_here
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=your_database_id_here
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=your_collection_id_here
+EXPO_PUBLIC_TMDB_API_KEY=your_tmdb_api_key_here
+```
+
+> ⚠️ Ensure `.env` is added to `.gitignore` because it contains private keys.
+
+---
+
+### 4. Start the Project
+
+```bash
+npx expo start
+```
+
+Open on Expo Go or emulator.
+
+---
+
+## 📱 Screens & Flow
+
+* **Home Screen** → Trending & Popular Movies
+* **Search Screen** → Live search with API
+* **Details Screen** → Overview, ratings, posters
+
+---
+
+## 💡 What I Learned
+
+This project strengthened my skills in:
+
+* Mobile-first UI development
+* TypeScript in React Native
+* API integration
+* Building scalable frontend architecture
+* Using **Appwrite (BaaS)** for real backend features without writing server code
+* Designing reusable components & hooks
+
+---
+
+## 👩‍💻 Author
+
+**Unnati Pandit**
+React Native Developer • Android Developer 
