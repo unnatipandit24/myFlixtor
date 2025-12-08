@@ -134,4 +134,5 @@ This project strengthened my skills in:
 ## 👩‍💻 Author
 
 **Unnati Pandit**
+
 React Native Developer • Android Developer 
