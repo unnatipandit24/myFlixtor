@@ -8,13 +8,19 @@ The app is powered by **BaaS (Backend-as-a-Service)** using **Appwrite**, enabli
 
 ##  Features
 
-✅ Browse trending & popular movies
-✅ Powerful search system
-✅ Detailed movie information
-✅ API-based real-time updates
-✅ Clean & modern UI with Tailwind (NativeWind)
-✅ Cross-platform support (Android & iOS)
-✅ BaaS integration using Appwrite
+a. Browse trending & popular movies
+
+b. Powerful search system
+
+c. Detailed movie information
+
+d. API-based real-time updates
+
+e. Clean & modern UI with Tailwind (NativeWind)
+
+f. Cross-platform support (Android & iOS)
+
+g.  BaaS integration using Appwrite
 
 ---
 
